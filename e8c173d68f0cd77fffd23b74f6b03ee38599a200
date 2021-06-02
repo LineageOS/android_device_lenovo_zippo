@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ac558d34_9bb3e85b",
+        "filename": "manifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2021-06-02T17:27:31Z",
+      "side": 1,
+      "message": "tbh I think we can just set target level 4 in sm8150-common tree since afaik the only change needed was to drop thermal engine 1.0 which we already are in the common tree",
+      "revId": "e8c173d68f0cd77fffd23b74f6b03ee38599a200",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
