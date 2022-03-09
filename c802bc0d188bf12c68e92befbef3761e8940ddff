@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b41ca39_ba6a0501",
+        "filename": "overlay-lineage/frameworks/base/packages/SystemUI/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2022-03-09T05:27:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "26b4a3f2_90af39dd",
+      "range": {
+        "startLine": 23,
+        "startChar": 22,
+        "endLine": 23,
+        "endChar": 23
+      },
+      "revId": "c802bc0d188bf12c68e92befbef3761e8940ddff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1f821698_c2cb3065",
@@ -37,6 +61,30 @@
       "writtenOn": "2022-03-08T10:09:38Z",
       "side": 1,
       "message": "Trailing space",
+      "range": {
+        "startLine": 27,
+        "startChar": 12,
+        "endLine": 27,
+        "endChar": 13
+      },
+      "revId": "c802bc0d188bf12c68e92befbef3761e8940ddff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c2cf1018_a299cb97",
+        "filename": "overlay-lineage/frameworks/base/packages/SystemUI/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2022-03-09T05:27:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1f821698_c2cb3065",
       "range": {
         "startLine": 27,
         "startChar": 12,
@@ -70,6 +118,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bcf8cf56_58eb4563",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2022-03-09T05:27:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f683b526_d4ee8b25",
+      "range": {
+        "startLine": 53,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 19
+      },
+      "revId": "c802bc0d188bf12c68e92befbef3761e8940ddff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4845f6dd_55c91c05",
@@ -83,6 +155,30 @@
       "writtenOn": "2022-03-08T10:09:38Z",
       "side": 1,
       "message": "Trailing space",
+      "range": {
+        "startLine": 21,
+        "startChar": 12,
+        "endLine": 21,
+        "endChar": 13
+      },
+      "revId": "c802bc0d188bf12c68e92befbef3761e8940ddff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "31dfd21b_7c98d18c",
+        "filename": "overlay/frameworks/base/packages/SystemUI/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2022-03-09T05:27:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4845f6dd_55c91c05",
       "range": {
         "startLine": 21,
         "startChar": 12,
