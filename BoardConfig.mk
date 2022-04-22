@@ -13,6 +13,9 @@ DEVICE_PATH := device/lenovo/zippo
 TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)/board-info.txt
 TARGET_OTA_ASSERT_DEVICE := zippo
 
+# Audio
+AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
+
 # FM
 BOARD_HAVE_QCOM_FM := true
 
