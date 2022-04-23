@@ -1,2 +1,5 @@
 # Camera
 ro.config.zui.region=ROW
+
+# FM
+vendor.hw.fm.init=0
