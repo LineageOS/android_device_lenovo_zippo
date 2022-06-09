@@ -1,7 +1,6 @@
 # All unpinned blobs below are extracted from L78051_CN_SECURE_USER_Q00055.1a_R_ZUI_12.5.365_ST_210831_WC79FCB81C
 
 # ACDB data
-vendor/etc/acdbdata/adsp_avs_config.acdb
 vendor/etc/acdbdata/CDP/CDP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/CDP/CDP_Codec_cal.acdb
 vendor/etc/acdbdata/CDP/CDP_General_cal.acdb
@@ -29,6 +28,7 @@ vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
+vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # Audio amplifier firmware
 vendor/firmware/mono.cnt
@@ -84,8 +84,8 @@ vendor/lib/camera/components/com.qti.node.stich.so
 vendor/lib/camera/components/com.qti.node.swregistration.so
 vendor/lib/camera/components/com.qti.stats.aec.so
 vendor/lib/camera/components/com.qti.stats.aecwrapper.so
-vendor/lib/camera/components/com.qti.stats.afd.so
 vendor/lib/camera/components/com.qti.stats.af.so
+vendor/lib/camera/components/com.qti.stats.afd.so
 vendor/lib/camera/components/com.qti.stats.afwrapper.so
 vendor/lib/camera/components/com.qti.stats.asd.so
 vendor/lib/camera/components/com.qti.stats.awb.so
@@ -161,8 +161,8 @@ vendor/lib64/camera/components/com.qti.node.stich.so
 vendor/lib64/camera/components/com.qti.node.swregistration.so
 vendor/lib64/camera/components/com.qti.stats.aec.so
 vendor/lib64/camera/components/com.qti.stats.aecwrapper.so
-vendor/lib64/camera/components/com.qti.stats.afd.so
 vendor/lib64/camera/components/com.qti.stats.af.so
+vendor/lib64/camera/components/com.qti.stats.afd.so
 vendor/lib64/camera/components/com.qti.stats.afwrapper.so
 vendor/lib64/camera/components/com.qti.stats.asd.so
 vendor/lib64/camera/components/com.qti.stats.awb.so
@@ -202,6 +202,9 @@ vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
+vendor/lib64/libMegviiBeautyBody.so
+vendor/lib64/libSNPE.so
+vendor/lib64/libSNPE_G.so
 vendor/lib64/libc++_shared.so
 vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libcamxfdalgov7.so
@@ -216,9 +219,7 @@ vendor/lib64/libdualcam_video_optical_zoom.so
 vendor/lib64/libgnustl_shared.so
 vendor/lib64/libmegface.so
 vendor/lib64/libmegskeleton.so
-vendor/lib64/libMegviiBeautyBody.so
 vendor/lib64/libmpbase.so
-vendor/lib64/libSNPE.so
 vendor/lib64/libsnpe_adsp.so
 vendor/lib64/libsnpe_dsp_domains.so
 vendor/lib64/libsnpe_dsp_domains_skel.so
@@ -227,7 +228,6 @@ vendor/lib64/libsnpe_dsp_skel.so
 vendor/lib64/libsnpe_dsp_v65_domains_skel.so
 vendor/lib64/libsnpe_dsp_v65_domains_v2_skel.so
 vendor/lib64/libsnpe_dsp_v66_domains_v2_skel.so
-vendor/lib64/libSNPE_G.so
 vendor/lib64/libsnpe_loader.so
 vendor/lib64/libsns_device_mode_stub.so
 vendor/lib64/libswregistrationalgo.so
@@ -291,12 +291,12 @@ vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so|adc2ba89c49
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so|0b84054262e01300e72796ee26ed6f9e00bce9b7
 
 # FM
-system_ext/lib/vendor.qti.hardware.fm@1.0.so
-system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 system_ext/lib/fm_helium.so
 system_ext/lib/libfm-hci.so
+system_ext/lib/vendor.qti.hardware.fm@1.0.so
 system_ext/lib64/fm_helium.so
 system_ext/lib64/libfm-hci.so
+system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/bin/fm_qsoc_patches
 vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
@@ -306,25 +306,25 @@ vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
 vendor/bin/sensors.qti
 vendor/bin/sscrpcd
 vendor/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
-vendor/lib/libsensorslog.so
 vendor/lib/libsensorcal.so
-vendor/lib/libsnsapi.so
-vendor/lib/libsnsdiaglog.so
+vendor/lib/libsensorslog.so
 vendor/lib/libsns_fastRPC_util.so
 vendor/lib/libsns_low_lat_stream_stub.so
 vendor/lib/libsns_registry_skel.so
+vendor/lib/libsnsapi.so
+vendor/lib/libsnsdiaglog.so
 vendor/lib/libssc.so
 vendor/lib/libssc_default_listener.so
 vendor/lib/sensors.ssc.so
 vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
-vendor/lib64/libsensorslog.so
 vendor/lib64/libsensorcal.so
-vendor/lib64/libsnsapi.so
-vendor/lib64/libsnsdiaglog.so
+vendor/lib64/libsensorslog.so
 vendor/lib64/libsns_fastRPC_util.so
 vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/libsns_registry_skel.so
+vendor/lib64/libsnsapi.so
+vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so
 vendor/lib64/sensors.ssc.so
@@ -377,8 +377,8 @@ vendor/etc/sensors/proto/mot_chopchop.proto
 vendor/etc/sensors/proto/mot_movement.proto
 vendor/etc/sensors/proto/nanopb.proto
 vendor/etc/sensors/proto/qti_gravity.proto
-vendor/etc/sensors/proto/sns_accel_cal.proto
 vendor/etc/sensors/proto/sns_accel.proto
+vendor/etc/sensors/proto/sns_accel_cal.proto
 vendor/etc/sensors/proto/sns_activity_recognition.proto
 vendor/etc/sensors/proto/sns_ambient_light.proto
 vendor/etc/sensors/proto/sns_ambient_temperature.proto
@@ -393,9 +393,9 @@ vendor/etc/sensors/proto/sns_ccd_walk.proto
 vendor/etc/sensors/proto/sns_client.proto
 vendor/etc/sensors/proto/sns_cmc.proto
 vendor/etc/sensors/proto/sns_cmd.proto
+vendor/etc/sensors/proto/sns_da_test.proto
 vendor/etc/sensors/proto/sns_dae.proto
 vendor/etc/sensors/proto/sns_data_acquisition_engine.proto
-vendor/etc/sensors/proto/sns_da_test.proto
 vendor/etc/sensors/proto/sns_device_mode.proto
 vendor/etc/sensors/proto/sns_device_orient.proto
 vendor/etc/sensors/proto/sns_diag.proto
@@ -410,8 +410,8 @@ vendor/etc/sensors/proto/sns_fw.proto
 vendor/etc/sensors/proto/sns_game_rv.proto
 vendor/etc/sensors/proto/sns_geomag_rv.proto
 vendor/etc/sensors/proto/sns_gravity.proto
-vendor/etc/sensors/proto/sns_gyro_cal.proto
 vendor/etc/sensors/proto/sns_gyro.proto
+vendor/etc/sensors/proto/sns_gyro_cal.proto
 vendor/etc/sensors/proto/sns_gyro_rot_matrix.proto
 vendor/etc/sensors/proto/sns_hall.proto
 vendor/etc/sensors/proto/sns_heart_beat.proto
@@ -419,8 +419,8 @@ vendor/etc/sensors/proto/sns_heart_rate.proto
 vendor/etc/sensors/proto/sns_hinge_angle.proto
 vendor/etc/sensors/proto/sns_humidity.proto
 vendor/etc/sensors/proto/sns_interrupt.proto
-vendor/etc/sensors/proto/sns_mag_cal.proto
 vendor/etc/sensors/proto/sns_mag.proto
+vendor/etc/sensors/proto/sns_mag_cal.proto
 vendor/etc/sensors/proto/sns_mcmd.proto
 vendor/etc/sensors/proto/sns_motion_detect.proto
 vendor/etc/sensors/proto/sns_multishake.proto
@@ -444,10 +444,10 @@ vendor/etc/sensors/proto/sns_sar.proto
 vendor/etc/sensors/proto/sns_sensor_temperature.proto
 vendor/etc/sensors/proto/sns_sig_motion.proto
 vendor/etc/sensors/proto/sns_signal_sensor.proto
-vendor/etc/sensors/proto/sns_sim_legacy.proto
 vendor/etc/sensors/proto/sns_sim.proto
-vendor/etc/sensors/proto/sns_std_event_gated_sensor.proto
+vendor/etc/sensors/proto/sns_sim_legacy.proto
 vendor/etc/sensors/proto/sns_std.proto
+vendor/etc/sensors/proto/sns_std_event_gated_sensor.proto
 vendor/etc/sensors/proto/sns_std_sensor.proto
 vendor/etc/sensors/proto/sns_std_type.proto
 vendor/etc/sensors/proto/sns_step_detect.proto
