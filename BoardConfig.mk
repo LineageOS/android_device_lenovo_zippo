@@ -24,7 +24,7 @@ BOARD_HAVE_QCOM_FM := true
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineage_zippo_defconfig
+TARGET_KERNEL_CONFIG += vendor/lenovo/zippo.config
 TARGET_KERNEL_SOURCE := kernel/lenovo/sm8150
 
 # Power
