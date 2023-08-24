@@ -1,0 +1,17 @@
+# All firmware images below are extracted from the release mentioned in proprietary-files.txt
+
+abl.elf:abl.img
+aop.mbn:aop.img
+BTFM.bin:bluetooth.img
+devcfg.mbn:devcfg.img
+dspso.bin:dsp.img
+hyp.mbn:hyp.img
+keymaster64.mbn:keymaster.img
+multiimgoem.img:multiimgoem.img
+NON-HLOS.bin:modem.img
+qupv3fw.elf:qupfw.img
+splash.img:splash.img
+storsec.mbn:storsec.img
+tz.mbn:tz.img
+xbl.elf:xbl.img
+xbl_config.elf:xbl_config.img
