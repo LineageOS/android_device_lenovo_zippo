@@ -8,10 +8,28 @@ from extract_utils.fixups_blob import (
     blob_fixup,
     blob_fixups_user_type,
 )
+from extract_utils.fixups_lib import (
+    lib_fixups,
+    lib_fixups_user_type,
+)
 from extract_utils.main import (
     ExtractUtils,
     ExtractUtilsModule,
 )
+
+namespace_imports = [
+    'vendor/lenovo/sm8150-common',
+    'hardware/qcom-caf/sm8150',
+    'hardware/qcom-caf/wlan',
+    'vendor/qcom/opensource/commonsys-intf/display',
+    'vendor/qcom/opensource/commonsys/display',
+    'vendor/qcom/opensource/dataservices',
+    'vendor/qcom/opensource/display',
+]
+
+lib_fixups: lib_fixups_user_type = {
+    **lib_fixups,
+}
 
 blob_fixups: blob_fixups_user_type = {
     ('vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so'): blob_fixup()
@@ -24,8 +42,9 @@ module = ExtractUtilsModule(
     'zippo',
     'lenovo',
     blob_fixups=blob_fixups,
+    lib_fixups=lib_fixups,
+    namespace_imports=namespace_imports,
     add_firmware_proprietary_file=True,
-    check_elf=False,
 )
 
 if __name__ == '__main__':
