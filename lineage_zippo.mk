@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2024 The LineageOS Project
+# Copyright (C) 2019-2025 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -7,6 +7,7 @@
 $(call inherit-product, device/lenovo/zippo/device.mk)
 
 # Inherit some common Lineage stuff.
+TARGET_SUPPORTS_OMX_SERVICE := false
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
