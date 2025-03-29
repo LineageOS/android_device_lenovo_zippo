@@ -60,81 +60,6 @@ vendor/lib64/libclimax.so
 
 # Camera
 vendor/bin/vl53l1_daemon_main
-vendor/lib/camera/components/com.arcsoft.node.capturebokeh.so
-vendor/lib/camera/components/com.arcsoft.node.realtimebokeh.so
-vendor/lib/camera/components/com.arcsoft.node.smoothtransition.so
-vendor/lib/camera/components/com.qti.camx.chiiqutils.so
-vendor/lib/camera/components/com.qti.eisv2.so
-vendor/lib/camera/components/com.qti.eisv3.so
-vendor/lib/camera/components/com.qti.hvx.addconstant.so
-vendor/lib/camera/components/com.qti.hvx.binning.so
-vendor/lib/camera/components/com.qti.node.depth.so
-vendor/lib/camera/components/com.qti.node.dummyrtb.so
-vendor/lib/camera/components/com.qti.node.dummysat.so
-vendor/lib/camera/components/com.qti.node.eisv2.so
-vendor/lib/camera/components/com.qti.node.eisv3.so
-vendor/lib/camera/components/com.qti.node.fcv.so
-vendor/lib/camera/components/com.qti.node.gpu.so
-vendor/lib/camera/components/com.qti.node.memcpy.so
-vendor/lib/camera/components/com.qti.node.remosaic.so
-vendor/lib/camera/components/com.qti.node.stich.so
-vendor/lib/camera/components/com.qti.node.swregistration.so
-vendor/lib/camera/components/com.qti.stats.aec.so
-vendor/lib/camera/components/com.qti.stats.aecwrapper.so
-vendor/lib/camera/components/com.qti.stats.af.so
-vendor/lib/camera/components/com.qti.stats.afd.so
-vendor/lib/camera/components/com.qti.stats.afwrapper.so
-vendor/lib/camera/components/com.qti.stats.asd.so
-vendor/lib/camera/components/com.qti.stats.awb.so
-vendor/lib/camera/components/com.qti.stats.awbwrapper.so
-vendor/lib/camera/components/com.qti.stats.haf.so
-vendor/lib/camera/components/com.qti.stats.hafoverride.so
-vendor/lib/camera/components/com.qti.stats.localhistogram.so
-vendor/lib/camera/components/com.qti.stats.pdlib.so
-vendor/lib/camera/components/com.qti.stats.pdlibsony.so
-vendor/lib/camera/components/com.qti.stats.pdlibwrapper.so
-vendor/lib/camera/components/com.qtistatic.stats.aec.so
-vendor/lib/camera/components/com.qtistatic.stats.af.so
-vendor/lib/camera/components/com.qtistatic.stats.awb.so
-vendor/lib/camera/components/com.qtistatic.stats.pdlib.so
-vendor/lib/camera/components/libdepthmapwrapper.so
-vendor/lib/camera/com.qti.sensor.ov02c20.so
-vendor/lib/camera/com.qti.sensor.ov16885.so
-vendor/lib/camera/com.qti.sensor.ov8856.so
-vendor/lib/camera/com.qti.sensor.s5kgd1.so
-vendor/lib/camera/com.qti.sensor.s5kgm1.so
-vendor/lib/camera/com.qti.sensormodule.ofilm_ov02c20.bin
-vendor/lib/camera/com.qti.sensormodule.ofilm_ov16885.bin
-vendor/lib/camera/com.qti.sensormodule.ofilm_ov8856.bin
-vendor/lib/camera/com.qti.sensormodule.ofilm_s5kgd1.bin
-vendor/lib/camera/com.qti.sensormodule.ofilm_s5kgm1.bin
-vendor/lib/camera/com.qti.tuned.ofilm_ov02c20.bin
-vendor/lib/camera/com.qti.tuned.ofilm_ov16885.bin
-vendor/lib/camera/com.qti.tuned.ofilm_ov8856.bin
-vendor/lib/camera/com.qti.tuned.ofilm_s5kgd1.bin
-vendor/lib/camera/com.qti.tuned.ofilm_s5kgm1.bin
-vendor/lib/camera/fdconfigpreview.bin
-vendor/lib/camera/fdconfigpreviewlite.bin
-vendor/lib/camera/fdconfigvideo.bin
-vendor/lib/camera/fdconfigvideolite.bin
-vendor/lib/hw/camera.qcom.so
-vendor/lib/hw/com.qti.chi.override.so
-vendor/lib/libcamera_nn_stub.so
-vendor/lib/libcamxfdalgov7.so
-vendor/lib/libcamxfdalgov8.so
-vendor/lib/libcamxfdengine.so
-vendor/lib/libcamxstatscore.so
-vendor/lib/libcamxswprocessalgo.so
-vendor/lib/libcamxtintlessalgo.so
-vendor/lib/libcom.qti.chinodeutils.so
-vendor/lib/libdualcam_optical_zoom_control.so
-vendor/lib/libdualcam_video_optical_zoom.so
-vendor/lib/libmpbase.so
-vendor/lib/libsns_device_mode_stub.so
-vendor/lib/libswregistrationalgo.so
-vendor/lib/libvideoutils.so
-vendor/lib/libvl53l1_daemon.so
-vendor/lib/libwatermarkutils.so
 vendor/lib64/camera/components/com.arcsoft.node.capturebokeh.so
 vendor/lib64/camera/components/com.arcsoft.node.realtimebokeh.so
 vendor/lib64/camera/components/com.arcsoft.node.smoothtransition.so
@@ -234,7 +159,6 @@ vendor/lib64/libvl53l1_daemon.so
 vendor/lib64/libwatermarkutils.so
 
 # Camera arcsoft
-vendor/lib/libarcsoft_dualcam_refocus.so
 vendor/lib64/libarcsoft_dualcam_refocus.so
 
 # Camera configs
@@ -242,14 +166,6 @@ vendor/etc/camera/camxoverridesettings.txt
 vendor/etc/camera/camxoverridesettings_for_cts.txt
 
 # Camera device
-vendor/lib/camera.device@1.0-impl.so
-vendor/lib/camera.device@3.2-impl.so
-vendor/lib/camera.device@3.3-impl.so
-vendor/lib/camera.device@3.4-external-impl.so
-vendor/lib/camera.device@3.4-impl.so
-vendor/lib/camera.device@3.5-external-impl.so
-vendor/lib/camera.device@3.5-impl.so
-vendor/lib/camera.device@3.6-external-impl.so
 vendor/lib64/camera.device@1.0-impl.so
 vendor/lib64/camera.device@3.2-impl.so
 vendor/lib64/camera.device@3.3-impl.so
@@ -265,17 +181,12 @@ vendor/firmware/CAMERA_ICP.elf
 # Camera provider
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
-vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
-vendor/lib/android.hardware.camera.provider@2.4-external.so
-vendor/lib/android.hardware.camera.provider@2.4-legacy.so
-vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib64/android.hardware.camera.provider@2.4-external.so
 vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 
 # Camera TOF sensor
-vendor/lib/hw/sensors.hal.tof.so
 vendor/lib64/hw/sensors.hal.tof.so
 
 # Fingerprint - from zippo - Lenovo/zippo/zippo:10/QKQ1.190825.002/11.5.381_200603:user/release-keys
