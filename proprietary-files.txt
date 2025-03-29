@@ -55,8 +55,6 @@ vendor/lib/libclimax.so
 vendor/lib/libqtigef.so
 vendor/lib/libssrec.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
-vendor/lib64/hw/audio.primary.msmnile.so
-vendor/lib64/libclimax.so
 
 # Camera
 vendor/bin/vl53l1_daemon_main
