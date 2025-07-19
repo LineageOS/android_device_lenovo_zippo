@@ -1,6 +1,5 @@
-
-# Copyright (C) 2019-2021 The LineageOS Project
 #
+# SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 -include device/lenovo/sm8150-common/BoardConfigCommon.mk
@@ -25,9 +24,6 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/lenovo/zippo.config
 TARGET_KERNEL_SOURCE := kernel/lenovo/sm8150
-
-# Power
-TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/touch/tp_dev/gesture_on"
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop

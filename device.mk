@@ -1,6 +1,5 @@
 #
-# Copyright (C) 2019-2024 The LineageOS Project
-#
+# SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -19,6 +18,9 @@ PRODUCT_PACKAGES += \
     FM2 \
     libqcomfm_jni \
     qcom.fmradio
+
+# Power
+$(call soong_config_set,qtipower,tap_to_wake_node,/sys/devices/virtual/touch/tp_dev/gesture_on)
 
 # Sensors
 PRODUCT_PACKAGES += \
