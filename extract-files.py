@@ -19,6 +19,7 @@ from extract_utils.main import (
 
 namespace_imports = [
     'vendor/lenovo/sm8150-common',
+    'hardware/qcom-caf/common/libqti-perfd-client',
     'hardware/qcom-caf/sm8150',
     'hardware/qcom-caf/wlan',
     'vendor/qcom/opensource/commonsys-intf/display',
