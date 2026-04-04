@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2022 The LineageOS Project
+// Copyright (C) 2022-2026 The LineageOS Project
 //
 // SPDX-License-Identifier: Apache-2.0
 //
@@ -15,6 +15,17 @@ cc_defaults {
 cc_library_shared {
     name: "libMegviiFacepp-0.5.2",
     defaults: ["libMegviiFacepp_defaults"],
+}
+
+cc_library_shared {
+    name: "libMegviiBeautyBody",
+    defaults: ["libMegviiFacepp_defaults"],
+    vendor: true,
+}
+
+cc_library_shared {
+    name: "libmegskeleton",
+    vendor: true,
 }
 
 cc_library_shared {
