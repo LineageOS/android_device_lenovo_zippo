@@ -18,7 +18,9 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libmegface
+    libMegviiBeautyBody \
+    libmegface \
+    libmegskeleton
 
 # FM
 PRODUCT_PACKAGES += \
