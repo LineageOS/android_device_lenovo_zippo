@@ -16,6 +16,24 @@
       "message": "Any reason why all of this is being cherry-picked to /device?",
       "revId": "987bca68644170dd8c2fd2c394e7262815fdb81c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2d30c27f_03c92641",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-04-05T13:26:32Z",
+      "side": 1,
+      "message": "If there\u0027s a common repo for megvii (ie, move this to android_hardware_lineage_compat), I can use that, but I don\u0027t see any, and heart doesn\u0027t have any megvii dependencies, so this only applies to zippo and not Lenovo sm8150-common",
+      "parentUuid": "50085da2_6b2d3777",
+      "revId": "987bca68644170dd8c2fd2c394e7262815fdb81c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
