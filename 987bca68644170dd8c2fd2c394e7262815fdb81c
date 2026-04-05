@@ -34,6 +34,24 @@
       "parentUuid": "50085da2_6b2d3777",
       "revId": "987bca68644170dd8c2fd2c394e7262815fdb81c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7698a4f3_d3f67919",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2026-04-05T13:31:35Z",
+      "side": 1,
+      "message": "I\u0027m sure one can make or find a new common place that isn\u0027t hardware/xiaomi.",
+      "parentUuid": "2d30c27f_03c92641",
+      "revId": "987bca68644170dd8c2fd2c394e7262815fdb81c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
