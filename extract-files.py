@@ -18,6 +18,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
+    'device/lenovo/zippo',
     'vendor/lenovo/sm8150-common',
     'hardware/qcom-caf/sm8150',
     'hardware/qcom-caf/wlan',
